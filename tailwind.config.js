@@ -5,6 +5,9 @@ module.exports = {
     values: {
       "100px": "100px",
     },
+    flexGrow: {
+      2: '2'
+    },
 
     shades: {
       "ash": "#555555",
