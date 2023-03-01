@@ -4,8 +4,16 @@ import Divider from '../component/Divider';
 import Card from '../component/Card';
 import Services from '../component/Services';
 import Offer from '../component/Offer';
+import Footer from '../component/Footer';
 
 const Home = () => {
+  const Goto = () => {
+    window.scrollTo({
+      top: 630,
+      behavior: "smooth",
+    });
+  };
+  
   return (
     <>
       <Hero />
@@ -17,8 +25,9 @@ const Home = () => {
       <Card/>
       <Divider text3="SHOP NOW"/>
       <div className='text-center'>
-      <button className='bg-blue-600 h-[40px] w-[150px] text-white py-[10px]'>SHOP NOW</button>
+      <button className='bg-blue-600 h-[40px] w-[150px] text-white py-[10px] mt-[50px]' onClick={Goto}>SHOP NOW</button>
       </div>
+      <Footer/>
     </>
   );
 }
