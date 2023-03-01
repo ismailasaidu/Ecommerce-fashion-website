@@ -3,7 +3,7 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import {Routes ,Route} from "react-router-dom"
 import Header from "./component/Header";
-import Card from "./component/Card";
+import Card from "./component/Cards";
 import Cart from "./pages/Cart";
 
 

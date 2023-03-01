@@ -1,25 +1,21 @@
-import React from "react";
-// import pic1 from "../Assets/pic1.png";
-import { Store } from "./product";
+import React from 'react'
+import Card from './Card'
+import { Store } from './product'
 
 const Cards = () => {
   return (
-    <div className="grid grid-cols-4 gap-10">
-      {Store.map(function (item) {
-        return  (
-          <div className="flex items-center flex-col" >
-            <img src={item.imgSrc} alt="" />
-            <p className="font-display font-bold text-[16px]">
-              {item.Description}
-            </p>
-            <p className="font-display font-bold text-[16px] text-blue">
-              {item.Price}
-            </p>
-          </div>
-        );
-      })}
-    </div>
-  );
-};
+    <div className=' mt-20 pl-14 pr-14 grid grid-cols-4 gap-10'>
+      
+         {Store.map(function (item) {
+          return  (
 
-export default Cards;
+            <Card item={item} key={item.id}/>
+            );
+          })}
+      
+       
+    </div>
+  )
+}
+
+export default Cards

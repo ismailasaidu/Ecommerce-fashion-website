@@ -1,12 +1,36 @@
-import React from 'react'
-import Cards from './Cards'
+import React from "react";
+// import pic1 from "../Assets/pic1.png";
+import { Store } from "./product";
+import { useSelector, useDispatch } from "react-redux";
+import { add } from "../redux/cartSlice";
+import {
+  remove,
+  increaseQuantity,
+  decreaseQuantity,
+} from "../redux/cartSlice";
 
-const Card = () => {
+const Card = ({item}) => {
+  const dispatch = useDispatch();
+  function handleClick(e) {
+    e.preventDefault();
+    dispatch(add(item));
+    // console.log(item);
+  }
   return (
-    <div className='flex mt-20 pl-14 pr-14'>
-        <Cards/>
+    <div >
+     
+          <div className="flex items-center flex-col" onClick={handleClick}>
+            <img src={item.imgSrc} alt="" />
+            <p className="font-display font-bold text-[16px]">
+              {item.Description}
+            </p>
+            <p className="font-display font-bold text-[16px] text-blue">
+              {item.Price}
+            </p>
+          </div>
+       
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
