@@ -6,7 +6,7 @@ const Divider = ({text1, text2, text3}) => {
       <section>
         <div className="text-center mt-[60px]">
           <h1 className="text-[40px] ">{text1}</h1>
-          <p className="text-[18px] text-gray-500">{text2}</p>
+          <p className="text-[18px] text-grey">{text2}</p>
           
         </div>
       </section>

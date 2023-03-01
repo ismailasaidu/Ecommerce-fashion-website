@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <div>
       <div className="bg-[url('./Assets/hero.png')] h-[500px] relative">
-        <div className=" font-display flex items-center flex-col gap-10 text-white font-black  absolute left-[750px] top-[190px]">
+        <div className=" font-display flex items-center flex-col gap-10 text-white font-black absolute left-[750px] top-[190px]">
           <h1 className="font-bold text-center text-[50px]">
             STYLIST PICKS BEAT <br></br> THE HEAT
           </h1>

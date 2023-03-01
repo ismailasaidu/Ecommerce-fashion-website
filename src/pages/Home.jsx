@@ -25,7 +25,7 @@ const Home = () => {
       <Card/>
       <Divider text3="SHOP NOW"/>
       <div className='text-center'>
-      <button className='bg-blue-600 h-[40px] w-[150px] text-white py-[10px] mt-[50px]' onClick={Goto}>SHOP NOW</button>
+      <button className='bg-blue h-[40px] w-[150px] text-white py-[10px] mt-[50px]' onClick={Goto}>SHOP NOW</button>
       </div>
       <Footer/>
     </>

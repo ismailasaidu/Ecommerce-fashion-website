@@ -11,7 +11,7 @@ const Header = () => {
       <div>
         <h1 className="font-display text-5xl">NorthStar</h1>
       </div>
-      <div className="flex gap-7 font-Arimo font-bold text-m mr-80">
+      <div className="flex gap-7 font-Arimo font-bold text-[14px] mr-80 pt-[20px]">
         <p
           onClick={() => {
             navigate("/");
@@ -33,9 +33,11 @@ const Header = () => {
       </div>
       <div className="flex items-center gap-5">
         <img src={account} alt="nav-icons" />
-        <div className="relative ">
-          <img src={cart} alt="nav-icons" />
-          <div className="absolute bottom-3 left-3 bg-blue-600 rounded-full w-4 h-4" ><p className="ml-1 text-xs  text-white">2</p></div>
+        <div className="relative " >
+          <img src={cart} alt="nav-icons" onClick={()=>{
+            navigate("/cart")
+          }}/>
+          <div className="absolute bottom-3 left-3 bg-blue rounded-full w-4 h-4" ><p className="ml-1 text-xs  text-white">2</p></div>
         </div>
 
         <img src={hamburger} alt="nav-icons" />

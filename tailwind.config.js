@@ -9,8 +9,16 @@ module.exports = {
       2: '2'
     },
 
-    shades: {
-      "ash": "#555555",
+    colors: {
+     "secondary":"#D6763C",
+     "white":"#ffffff", 
+     "grey": "#555555",
+     "blue":"#024E82",
+     "black":"#1D1D1D",
+     "dark":"#000000",
+     "lightGrey":"#FBFBFB",
+     "divider":"#E8E8E8"
+     
     },
 
     fontFamily: {

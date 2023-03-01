@@ -8,8 +8,8 @@ import master from "../Assets/master card.png"
 const Footer = () => {
   return (
     <div >
-      <div className=" flex justify-between pl-14 pr-14 mt-[120px] bg-gray-100 h-[300px] pt-[30px] ">
-        <div className="flex flex-col gap-[20px] text-gray-600">
+      <div className=" flex justify-between pl-14 pr-14 mt-[120px] bg-lightGrey h-[300px] pt-[30px] ">
+        <div className="flex flex-col gap-[20px] text-grey">
           <div>
             <h1 className="font-display font-bold text-[14px] ">
               COMPANY INFO
@@ -22,7 +22,7 @@ const Footer = () => {
             <p>Shop</p>
           </div>
         </div>
-        <div className="flex flex-col gap-[20px]  text-gray-600">
+        <div className="flex flex-col gap-[20px]  text-grey">
           <div>
             <h1 className="font-display font-bold text-[14px] ">HELP LINK</h1>
           </div>
@@ -34,7 +34,7 @@ const Footer = () => {
             <p>FAQ</p>
           </div>
         </div>
-        <div className="flex flex-col gap-[20px]  text-gray-600">
+        <div className="flex flex-col gap-[20px]  text-grey">
           <div>
             <h1 className="font-display font-bold text-[14px] ">
               USEFUL LINKS
@@ -47,7 +47,7 @@ const Footer = () => {
             <p>Terms of Use</p>
           </div>
         </div>
-        <div className="flex flex-col gap-[20px]  text-gray-600">
+        <div className="flex flex-col gap-[20px]  text-grey">
           <div>
             <h1 className="font-display font-bold text-[14px] ">
               GET IN THE KNOW
@@ -57,14 +57,14 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Email"
-              className="border-b-[1px] border-black outline-none bg-gray-100 font-thin"
+              className="border-b-[1px] border-black outline-none bg-lightGrey font-thin"
             />
             <img src={arrow} alt="" />
           </div>
         </div>
       </div>
-      <div className="ml-14 mr-14 border-t-[1px] border-gray-300 h-[100px] flex justify-between pt-[25px]">
-        <div className='text-gray-600'>
+      <div className="ml-14 mr-14 border-t-[1px] border-divider h-[100px] flex justify-between pt-[25px]">
+        <div className='text-grey'>
           <p>© 2020 NorthStar eCommerce</p>
           <p>Privacy Policy Terms & Conditions</p>
         </div>

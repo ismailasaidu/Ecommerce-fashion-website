@@ -13,7 +13,7 @@ const Services = () => {
         </div>
         <div>
           <h1 className="font-display font-bold text-[16px]">FREE SHIPPING</h1>
-          <p className="text-gray-500">
+          <p className="text-grey">
             Enjoy Free Shipping on all<br></br> orders above $100
           </p>
         </div>
@@ -24,7 +24,7 @@ const Services = () => {
         </div>
         <div>
           <h1 className="font-display font-bold text-[16px]">SUPPORT 24/7</h1>
-          <p className="mt-2 text-gray-500">
+          <p className="mt-2 text-grey">
           Our support team is there <br></br>to help you for queries
           </p>
         </div>
@@ -35,7 +35,7 @@ const Services = () => {
         </div>
         <div>
           <h1 className="font-display font-bold text-[16px]">30 DAYS RETURN</h1>
-          <p className="mt-2 text-gray-500">
+          <p className="mt-2 text-grey">
           Simply return it within 30<br></br> days for an exchange.
           </p>
         </div>
@@ -47,7 +47,7 @@ const Services = () => {
         </div>
         <div>
           <h1 className="font-display font-bold text-[16px]">100% PAYMENT SECURE</h1>
-          <p className="mt-2 text-gray-500">
+          <p className="mt-2 text-grey">
           Our payments are secured <br></br>with 256 bit encryption
           </p>
         </div>

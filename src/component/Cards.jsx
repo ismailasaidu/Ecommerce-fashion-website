@@ -12,7 +12,7 @@ const Cards = () => {
             <p className="font-display font-bold text-[16px]">
               {item.Description}
             </p>
-            <p className="font-display font-bold text-[16px] text-blue-600">
+            <p className="font-display font-bold text-[16px] text-blue">
               {item.Price}
             </p>
           </div>
